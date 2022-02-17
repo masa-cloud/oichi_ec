@@ -8,14 +8,14 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>大市商店：会社情報</title>
-        <meta name="description" content="大市商店の会社情報のページです。" />
+      <title>大市商店：商品情報</title>
+        <meta name="description" content="大市商店の商品情報のページです。" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          About
+          Shop Product
         </h1>
 
         <p className={styles.description}>
