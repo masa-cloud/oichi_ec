@@ -1,5 +1,6 @@
 {
   "settings": {
     "javascript.preferences.importModuleSpecifier": "non-relative"
-  }
+  },
+  "tailwindCSS.emmetCompletions": true
 }

@@ -1,16 +1,9 @@
-import 'tailwindcss/tailwind.css'
-
 export default function Headline() {
   return (
-    <div>
-      <h1>
-        About
-        </h1>
-
-      <p>
-        Get started by editing{' '}
-        <code>pages/index.js</code>
-      </p>
-    </div>
+    <p className="p-10 text-lg">
+      代々受け継いだ味<br/>
+      豊かな自然の魚を<br/>
+      萩の町からお届けします
+    </p>
   )
 }

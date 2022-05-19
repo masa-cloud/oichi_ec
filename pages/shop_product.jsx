@@ -1,7 +1,5 @@
 import Head from 'next/head'
 import Headline from 'components/organisms/Headline'
-import Links from 'components/organisms/Links'
-import styles from 'styles/Home.module.css'
 import { Footer } from 'components/organisms/Footer'
 
 export default function Home() {
@@ -14,7 +12,6 @@ export default function Home() {
 
       <main className={styles.main}>
         <Headline />
-        <Links />
       </main>
 
       <Footer />

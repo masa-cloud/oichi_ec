@@ -6,11 +6,9 @@ function MyApp({ Component, pageProps }) {
     <>
       <Head>
         <link rel="icon" href="/favicon.ico"/>
+        <meta name="robots" content="noindex" />
       </Head>
-      <Component {...pageProps} />
-      <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+      <Component className="font-light" {...pageProps} />
     </>
   )
 }
